@@ -8,13 +8,13 @@ const HeaderSocial = () => {
   return (
     <Wrapper>
       <div className="header_socials">
-        <a href="https://github.com/Ranjithp123-hash" target="_blank">
+        <a rel="noreferrer" href="https://github.com/Ranjithp123-hash" target="_blank">
           <BsGithub />
         </a>
-        <a href="https://www.linkedin.com/in/ranjith-kumar-a0217822a/" target="_blank">
+        <a rel="noreferrer" href="https://www.linkedin.com/in/ranjith-kumar-a0217822a/" target="_blank">
           <BsLinkedin />
         </a>
-        <a href="https://www.instagram.com/ran_jith___kum_ar?igsh=MjhkeDl5Z2Rjc293" target="_blank">
+        <a rel="noreferrer" href="https://www.instagram.com/ran_jith___kum_ar?igsh=MjhkeDl5Z2Rjc293" target="_blank">
           <BsInstagram />
         </a>
       </div>

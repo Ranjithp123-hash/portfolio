@@ -45,7 +45,7 @@ const Contact = () => {
               <MdOutlineEmail className="contact_option_icon" />
               <h4>Email</h4>
               <h5>ranjithkumarp908@gmail.com</h5>
-              <a href = "mailto:ranjithkumarp908@gmail.com" target="_blank">
+              <a rel="noreferrer" href = "mailto:ranjithkumarp908@gmail.com" target="_blank">
                 Send Message
               </a>
             </ContactOption>
@@ -53,7 +53,7 @@ const Contact = () => {
               <FaWhatsapp className="contact_option_icon" />
               <h4>Whatsapp</h4>
               <h5>+91 8897353839</h5>
-              <a href="https://wa.me/8897353839" target="_blank">
+              <a rel="noreferrer" href="https://wa.me/8897353839" target="_blank">
                 Send Message
               </a>
             </ContactOption>
@@ -61,7 +61,7 @@ const Contact = () => {
               <RiMessengerLine className="contact_option_icon" />
               <h4>Messenger</h4>
               <h5>Ranjith Kumar</h5>
-              <a href="https://m.me/ranjithkumar.petlu" target="_blank">
+              <a rel="noreferrer" href="https://m.me/ranjithkumar.petlu" target="_blank">
                 Send Message
               </a>
             </ContactOption>

@@ -26,13 +26,13 @@ const Footer = () => {
           </li>
         </PermaLinks>
         <FooterSocials className="footer_socials">
-          <FooterLinks className="social"  target="_blank"  href="https://www.facebook.com/ranjithkumar.petlu?mibextid=ZbWKwL">
+          <FooterLinks className="social" rel="noreferrer"  target="_blank"  href="https://www.facebook.com/ranjithkumar.petlu?mibextid=ZbWKwL">
             <FaFacebookF />
           </FooterLinks>
-          <FooterLinks className="social" target="_blank" href="https://www.instagram.com/ran_jith___kum_ar?igsh=MjhkeDl5Z2Rjc293">
+          <FooterLinks className="social" rel="noreferrer" target="_blank" href="https://www.instagram.com/ran_jith___kum_ar?igsh=MjhkeDl5Z2Rjc293">
             <FiInstagram />
           </FooterLinks>
-          <FooterLinks className="social" href="https;//twitter.com" target="_blank">
+          <FooterLinks className="social" rel="noreferrer" href="https;//twitter.com" target="_blank">
             <IoLogoTwitter />
           </FooterLinks>
         </FooterSocials>
